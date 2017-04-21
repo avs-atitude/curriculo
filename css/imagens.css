@@ -1,0 +1,18 @@
+.foto{
+    margin-top: 25px;
+    width: 200px;
+    height: 200px;
+}   
+
+.image-direita{
+    float: right;
+}
+
+.image-esquerda{
+    display: table-cell;
+    float: left;
+}
+
+#separar-imagens{
+  margin-bottom: 50px;
+}

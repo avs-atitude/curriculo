@@ -1,0 +1,37 @@
+.nome h2{
+    color: white;
+}
+
+@media (max-width:750px){
+    .nome h2{
+        font-size: 20px;
+    }
+}
+
+.nome h5{
+    color: white;
+}
+
+.social-icons{
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.titulo-principal{
+    background-color: #333;
+}
+
+@media (min-width: 768px){
+    .container-fluid > .navbar-collapse {
+        margin-left: 20%;
+    }
+}
+
+
+@media (max-width: 1024px) and (min-width: 768px){
+    .container-fluid > .navbar-collapse {
+        margin-left: 10%;
+    }
+}

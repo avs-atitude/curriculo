@@ -1,0 +1,69 @@
+#sobre{
+  background-color: #00796B;
+  margin-top: -5px;
+  padding: 20px;
+  color: white;
+}
+
+.cursos{
+  background-color: #FFEB3B; 
+  width: 100%;
+}
+
+.sobre-textoPrincipal{
+  font-family: 'Georgia';
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+#objetivo{
+  background-color: #E0E0E0;
+}
+
+#conhecimentos{
+  color: white;
+  background-color: #455A64 ; 
+}
+
+#progress-bar-sql {
+    background-color: purple;
+}
+
+
+#progress-bar-jquery {
+    background-color: green;
+}
+
+.progresso{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.sobre-textoSecundario{
+  margin: auto;
+  width: 80%;
+  font-size: 1.3em;
+  font-family: 'Open Sans';
+}
+
+p, .topicos{
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+.topicos-sem-estilo{
+  list-style-type: none
+}
+
+
+.conteudo-direta{
+ float: right;
+ text-align: right;   
+ display: table-cell;
+}
+
+.conteudo-esquerda{
+  width: 70%;
+  display: table-cell;
+  float: left;
+}
