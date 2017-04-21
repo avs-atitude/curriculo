@@ -1,6 +1,5 @@
-.sobre{
+#sobre{
   background-color: #00796B;
-  margin-top: -5px;
   padding: 20px;
   color: white;
 }
@@ -10,19 +9,25 @@
   width: 100%;
 }
 
+#contato{
+  color: white;
+}
+
 .sobre-textoPrincipal{
   font-family: 'Georgia';
   font-size: 1.4em;
   font-weight: bold;
 }
 
-.objetivo{
-  background-color: #E0E0E0;
-}
-
-.conhecimentos{
+#conhecimentos{
   color: white;
   background-color: #455A64 ; 
+}
+
+#experiencia{
+  color: white;
+  background-color: #607D8B;
+  padding: 10px;
 }
 
 .progress-bar-sql {
@@ -66,4 +71,9 @@ p, .topicos{
   width: 70%;
   display: table-cell;
   float: left;
+}
+
+.direitos-reservados{
+  margin-top: 20px;
+  font-size: 1.1em;
 }
