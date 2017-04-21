@@ -1,4 +1,4 @@
-#sobre{
+.sobre{
   background-color: #00796B;
   margin-top: -5px;
   padding: 20px;
@@ -16,21 +16,21 @@
   font-weight: bold;
 }
 
-#objetivo{
+.objetivo{
   background-color: #E0E0E0;
 }
 
-#conhecimentos{
+.conhecimentos{
   color: white;
   background-color: #455A64 ; 
 }
 
-#progress-bar-sql {
+.progress-bar-sql {
     background-color: purple;
 }
 
 
-#progress-bar-jquery {
+.progress-bar-jquery {
     background-color: green;
 }
 
