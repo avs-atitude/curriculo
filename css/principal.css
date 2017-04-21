@@ -1,12 +1,12 @@
 #sobre{
-  padding-top: 50px;
+  padding: 50px;
   background-color: #00796B;
   color: white;
   margin-top: -20px
 }
 
 #cursos{
-  padding-top: 50px;
+  padding: 50px;
   background-color: #B0BEC5;
   width: 100%;
 }
@@ -16,7 +16,7 @@
 }
 
 #objetivo{
-  padding-top: 50px;
+  padding: 50px;
   background-color: #F5F5F5;
 }
    
@@ -27,13 +27,13 @@
 }
 
 #conhecimentos{
-  padding-top: 50px;
+  padding: 50px;
   color: white;
   background-color: #37474F ; 
 }
 
 #experiencia{
-  padding-top: 50px;
+  padding: 50px;
   color: white;
   background-color: #263238;
   padding: 10px;
