@@ -14,7 +14,64 @@
     </head>
 
     <body>
-        <header class="titulo-principal">
+        <nav class="navbar-inverse navbar-fixed-top">
+            <div class="container-fluid">
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburguinho" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            
+                <div class="collapse navbar-collapse" id="hamburguinho">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="#">
+                                <span class="glyphicon glyphicon-home"></span> Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#sobre">
+                                <span class="glyphicon glyphicon-user"></span> Sobre
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#objetivo">
+                                <span class="glyphicon glyphicon-record"></span> Objetivo
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#cursos">
+                                <span class="glyphicon glyphicon-education"></span> Cursos
+                            </a>
+                        </li>
+
+                        <li><a href="#conhecimentos">
+                                <span class="glyphicon glyphicon-book"></span> Conhecimentos
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#experiencia">
+                            <span class="glyphicon glyphicon-briefcase"></span> Experiência
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#contato">
+                            <span class="glyphicon glyphicon-envelope"></span> Contato
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <header id="home" class="titulo-principal">
             <div class="nome text-center">
                 <img src="img/foto.jpg" alt="foto_alexandre" class="img-circle foto">
                 <h2>ALEXANDRE VIEIRA DE SOUZA</h2>
@@ -35,63 +92,6 @@
                     </a>
                 </ul>
             </div>
-
-            <nav class="navbar-inverse navbar-fixed">
-                <div class="container-fluid">
-                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburguinho" aria-expanded="false">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                    </div>
-                
-                    <div class="collapse navbar-collapse" id="hamburguinho">
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a href="#">
-                                    <span class="glyphicon glyphicon-home"></span> Home
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#sobre">
-                                    <span class="glyphicon glyphicon-user"></span> Sobre
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#objetivo">
-                                    <span class="glyphicon glyphicon-record"></span> Objetivo
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#cursos">
-                                    <span class="glyphicon glyphicon-education"></span> Cursos
-                                </a>
-                            </li>
-
-                            <li><a href="#conhecimentos">
-                                    <span class="glyphicon glyphicon-book"></span> Conhecimentos
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#experiencia">
-                                <span class="glyphicon glyphicon-briefcase"></span> Experiência
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="#contato">
-                                <span class="glyphicon glyphicon-envelope"></span> Contato
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
         </header>
 
         <!-- SOBRE MIM -->
@@ -160,12 +160,13 @@
 
         <section id="cursos" class="nova-section">
             <div class="container">
+
+                 <h2 class="text-center">
+                    <span class="glyphicon glyphicon-education"></span> Cursos &amp; Certificações
+                </h2>
+
                 <div class="row">
                     <div class="conteudo-direta col-md-6 col-sm-6">
-                        <h2>
-                            <span class="glyphicon glyphicon-education"></span> Cursos &amp; Certificações
-                        </h2>
-                        
                         <ul class="topicos topicos-sem-estilo">
                             <li>
                                 <b>Cursando Sistemas de Informação</b>
@@ -195,7 +196,7 @@
                         </ul>
                     </div>
                      
-                     <div class="col-md-6 col-sm-6">
+                     <div class="col-md-6">
                         <div class="row">
                             <picture class="image image-direita">
                                 <div class="col-md-12">
