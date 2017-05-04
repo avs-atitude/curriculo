@@ -1,12 +1,14 @@
+section{
+  padding: 30px;
+}
+
 #sobre{
-  padding: 50px;
   background-color: #00796B;
   color: white;
   margin-top: -20px
 }
 
 #cursos{
-  padding: 50px;
   background-color: #B0BEC5;
   width: 100%;
 }
@@ -16,24 +18,20 @@
 }
 
 #objetivo{
-  padding: 50px;
   background-color: #F5F5F5;
 }
    
 .sobre-textoPrincipal{
-  font-family: 'Georgia';
   font-size: 1.4em;
   font-weight: bold;
 }
 
 #conhecimentos{
-  padding: 50px;
   color: white;
   background-color: #37474F ; 
 }
 
 #experiencia{
-  padding: 50px;
   color: white;
   background-color: #263238;
   padding: 10px;
@@ -56,8 +54,7 @@
 .sobre-textoSecundario{
   margin: auto;
   width: 80%;
-  font-size: 1.3em;
-  font-family: 'Open Sans';
+  font-size: 1.2em;
 }
 
 p, .topicos{
