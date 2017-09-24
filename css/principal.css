@@ -1,4 +1,4 @@
-section{
+section, header{
   padding: 30px;
 }
 
@@ -34,7 +34,6 @@ section{
 #experiencia{
   color: white;
   background-color: #263238;
-  padding: 10px;
 }
 
 .progress-bar-sql {
