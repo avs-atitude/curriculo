@@ -9,8 +9,9 @@ section, header{
 }
 
 #cursos{
-  background-color: white;
+  background-color: #546E7A;
   width: 100%;
+  color: white;
 }
 
 #contato{
@@ -85,4 +86,15 @@ p, .topicos{
 .direitos-reservados{
   margin-top: 20px;
   font-size: 1.1em;
+}
+
+.anime {
+	opacity: 0;
+	transform: translate3d(-100px,0,0);
+	transition: .3s;
+}
+
+.anime-start {
+	opacity: 1;
+	transform: translate3d(0,0,0);
 }
