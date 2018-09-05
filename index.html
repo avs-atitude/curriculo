@@ -1,552 +1,161 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
-    <head>
-        <title>Alexandre Vieira de Souza</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-        <!-- BOOTSTRAP -->
-        <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-        
-        <!-- CSS -->
-        <link rel="stylesheet" href="css/principal.css">
-        <link rel="stylesheet" href="css/header.css">
-        <link rel="stylesheet" href="css/imagens.css">
-        
-        <!-- Animate.css -->
-        <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
-        
-        <!-- favicon -->
-        <link rel="icon" type="image/x-icon" href="img/favicon.png" />
-
-        <!--JQUERY -->
-        <script src="jquery.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    </head>
-
-    <body SCROLL="no">
-        <nav href="#home" class="navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-                    <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#hamburguinho" aria-expanded="false">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-            
-                <div class="collapse navbar-collapse" id="hamburguinho">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a class="scroll" href="#home">
-                                <span class="glyphicon glyphicon-home"></span> Home
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="scroll" href="#sobre">
-                                <span class="glyphicon glyphicon-user"></span> Sobre
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="scroll" href="#objetivo">
-                                <span class="glyphicon glyphicon-record"></span> Objetivo
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="scroll" href="#cursos">
-                                <span class="glyphicon glyphicon-education"></span> Cursos
-                            </a>
-                        </li>
-
-                        <li><a class="scroll" href="#conhecimentos">
-                                <span class="glyphicon glyphicon-book"></span> Conhecimentos
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="scroll" href="#experiencia">
-                            <span class="glyphicon glyphicon-briefcase"></span> Experiência
-                            </a>
-                        </li>
-
-                        <li>
-                            <a class="scroll" href="#contato">
-                            <span class="glyphicon glyphicon-envelope"></span> Contato
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        
-        <header id="home" class="titulo-principal">
-            <div class="nome text-center">
-                <img src="img/foto.png" alt="foto_alexandre" class="img-thumbnail foto anime">
-                <h2 class="anime">ALEXANDRE VIEIRA DE SOUZA</h2>
-                <hr align="center" width="50%" size="3" color=red>
-                <h5>Estagiário de Desenvolvimento Back-End</h5>
-
-                <ul class="nav navbar">
-                    <a href="https://github.com/avs-atitude" title="GitHub" target="_blank">
-                        <img class="social-icons" src="img/github.png">
-                    </a>
-
-                    <a href="https://www.linkedin.com/in/avs-atitude/" title="Linkedin" target="_blank">
-                        <img class="social-icons" src="img/linkedin.png">
-                    </a>
-
-                    <a href="https://www.facebook.com/alexandre.sumemo" title="Facebook" target="_blank">
-                        <img class="social-icons" src="img/facebook.png">
-                    </a>
-                </ul>
-            </div>
-        </header>
-
-        <!-- SOBRE MIM -->
-        <section id="sobre">
-            <div class="text-center">
-                <h2>
-                    <span class="glyphicon glyphicon-user"></span> Sobre
-                </h2>
-
-                    <p class="sobre-textoPrincipal">Meu nome é Alexandre Vieira de Souza, e tenho <span id="minhaIdade"></span> anos. Sou brasileiro, solteiro e moro na cidade de Caieiras - SP</p>
-            </div>
-            
-            <hr align="center" width="60%" size="1" color=red>
-            
-            <p class="sobre-textoSecundario text-center anime">
-                O meu interesse por informática surgiu quando eu tinha 5 anos, meu intuito principal naquela época era me aventurar no mundo dos Games, no entanto acabei descobrindo outros recursos que a informática proporcionava e despertei o desejo latente de aprender e me desenvolver nessa área.
-            </p>
-            </br>
-            <p class="sobre-textoSecundario text-center anime">
-                Durante a minha vida profissional trabalhei com suporte técnico, mas após as aulas de programação na Faculdade mudei o rumo da minha área para o desenvolvimento e especificamente o desenvolvimento Back-End.
-            </p>
-        </section>
-
-        <!-- OBJETIVO PROFISSIONAL -->
-        <section id="objetivo">
-            <div class="row">
-                <div class="col-md-6 col-xs-12" class="conteudo-esquerda">
-                    <h2>
-                        <span class="glyphicon glyphicon-record"></span> Objetivo Profissional
-                    </h2>
-                
-                    <p>Meu objetivo profissional é conseguir um estágio em Desenvolvimento Back-End:</p>
-                        
-                    <ul class="topicos anime">
-                        <li>Fazer uso de design patterns e padrões SOLID;</li>
-                        <li>Efetuar práticas de Test-Driven Development (TDD);</li>
-                        <li>Trabalhar com o padrão de arquitetura de software MVC;</li>
-                        <li>Auxiliar no desenvolvimento de novas ferramentas para uso na web;</li>
-                        <li>Fazer a construção de API REST;</li>
-                        <li>Trabalhar com a criação de aplicações escaláveis;</li>
-                        <li>Participação nos processos de modelagem de negócios, levantamento de requisitos e desenho de classes;</li>
-                        <li>Implementação de novas funcionalidades, melhorias e testes funcionais;</li>
-                        <li>Aplicar uso de metologias ágeis;</li>
-                        <li>Integração de plataformas;</li>
-                        <li>Configuração de ambiente de hospedagem;</li>
-                        <li>Criação e Modelagem de Banco de Dados.</li>
-                    </ul>            
-                </div>
-
-                <div class="col-md-6">
-                    <div class="row">
-                        <picture    >
-                            <div class="col-md-12 col-xs-12">
-                                <img class="img-responsive separar-img anime" src="img/alvo.png">
-                            </div>
-                        </picture>
-                    </div> <!-- Fim row imagens -->
-                </div> <!-- Fim coluna de imagens -->
-            </div> <!-- Fim row -->
-        </section> <!-- Fim sessão Objetivo -->
-
-        <!-- Cursos -->
-        <section id="cursos">
-            <h2>
-                <span class="glyphicon glyphicon-education"></span> Cursos &amp; Certificações
-            </h2>
-            <br>
-
-            <div class="row">
-                <h3 class="text-center">
-                    Cursando Sistemas de Informação
-                </h3>
-                <br>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <ul class="topicos topicos-sem-estilo">
-                            <ul>
-                                <li>Escola: Faculdade Impacta de Tecnologia</li>
-                                <li>Campus: Bom Retiro</li>
-                                <li>Semestre: 7°</li>
-                                <li>Término: Dezembro/2018</li>
-                            </ul>
-                        </ul>
-                </div>
-
-                <picture class="col-md-6 col-sm-6 col-xs-12">
-                        <img class="img-responsive anime" src="img/impacta.png">
-                </picture>
-            </div>
-            <hr>
-            <div class="row">
-                <h3 class="text-center">Alura Comércio de Livros e Treinamentos LTDA/EPP</h3>
-                <br>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <ul class="topicos topicos-sem-estilo">    
-                        
-                        <p>Back-End</p>
-                        <ul>
-                            <li>HTTP: Entendendo a web por baixo dos panos;</li>
-                            <li>MySQL I: Iniciando suas consultas;</li>
-                            <li>JAVA I: Primeiros Passos</li>
-                            <li>JAVA II: Orientação a Objetos</li>
-                            <li>Linux I: Conhecendo e utilizando o terminal.</li> 
-                            <li>PHP e seus Fundamentos;</li>
-                            <li>PHP e MYSQL II: Cookies, Sessões e mais recursos;</li>
-                            <li>Curso Laravel: facilitando o desenvolvimento PHP</li>
-                            <li>Curso Laravel II: Mais técnicas e webapps poderosas</li>
-                            <li>Codeigniter I: Programando Elegantemente para a Web</li>
-                        </ul>
-
-                        <p>Front-End</p>
-                        <ul>
-                            <li>Os primeiros programas com Javascript e HTML;</li>
-                            <li>HTML5 e CSS3 I: Suas primeiras páginas da Web;</li>
-                            <li>JavaScript: Programando na linguagem da web;</li>
-                            <li>jQuery: Domine a biblioteca mais popular do mercado;</li>
-                            <li>Bootstrap: criação de uma single-page responsiva;</li>
-                        </ul>
-
-                    </ul>
-                </div>
-
-                <picture class="col-md-6 col-sm-6 col-xs-12">
-                        <img class="img-responsive anime" src="img/alura.png">
-                </picture>
-            </div>
-            <br>
-            <hr>
-            <div class="row">
-                <h3 class="text-center">School Of net Internet, Sistemas e Tecnologia LTDA</h3>
-                <br>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <ul class="topicos topicos-sem-estilo">
-                        <ul>
-                            <li>jQuery com Ajax</li>
-                            <li>TypeScript</li>
-                            <li>Git e Github</li>                            <br>
-                            <li>PHP com PDO</li>
-                            <li>PHP - Iniciando com OO.</li>
-                            <li>Inicando com Laravel</li>
-                            <li>Iniciando com CodeIgniter</li>
-                        </ul>
-                    </ul>
-                </div>
-
-                <picture class="col-md-6 col-sm-6 col-xs-12">
-                    <img src="img/son.png" class="img-responsive anime">
-                </picture>
-            </div>
-            <hr>
-            <div class="row">
-                <h3 class="text-center">SENAI – Mariano Ferraz</h3>
-                <br>
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <ul class="topicos topicos-sem-estilo">
-                        <ul>
-                            <li>Manutenção de Microcomputadores</li>
-                            <li>Carga horária: 80 horas</li>
-                            <li>Inicio: 60/02/2010 - Conclusão: 17/04/2010</li>
-                        </ul>
-
-                        <br>
-        
-                        <ul>
-                            <li>Implantação de Redes e Locais</li>
-                            <li>Carga horária: 60 horas</li>
-                            <li>Inicio: 08/05/2010 - Conclusão: 17/07/2010</li>
-                        </ul>
-                    </ul>
-                </div>
-
-                <picture class="col-md-6 col-sm-6 col-xs-12">
-                    <img class="img-responsive anime" src="img/senai.jpg"> 
-                </picture>
-            </div>
-        </section> <!-- Fim sessão Cursos -->
-
-        <!-- Sessão Conhecimentos -->
-        <section id="conhecimentos">
-            <h2 class="text-center">
-                <span class="glyphicon glyphicon-book"></span> Conhecimentos
-            </h2>
-            
-            <div class="container">
-
-            <h3 class="text-center">Back-End</h3>
-            <hr>
-            <div class="row">
-                <picture class="col-md-6 col-sm-6 col-xs-6">
-                    <img class="img-responsive anime"src="img/java.png">
-                </picture>
-                
-                <picture class="col-md-6 col-sm-6 col-xs-6">
-                    <img class="img-responsive anime" src="img/php.png">
-                </picture>
-            </div>
-
-            <div class="row">
-                    <picture class="col-md-4 col-xs-4">     
-                    </picture>
-    
-                    <picture class="col-md-4 col-sm-4 col-xs-4">
-                        <img class="img-responsive anime" src="img/codeigniter.png">    
-                    </picture>
-    
-                    <picture class="col-md-4 col-xs-4">     
-                    </picture>
-                </div>
-
-            <div class="row">
-                <br><br>
-                <picture class="col-md-5 col-sm-5 col-xs-5">
-                    <img class="img-responsive anime" src="img/json.png">                    
-                </picture>
-                
-                <picture class="col-md-3 col-xs-3">
-                    <img class="img-responsive anime" src="img/laravel.png">
-                </picture>
-                
-                <picture class="col-md-3 col-xs-3">
-                    <img class="img-responsive anime" src="img/xml.svg.png">    
-                </picture> 
-            </div>
-
-            <br>
-            
-            <h3 class="text-center">Banco de Dados</h3>
-            <hr>
-
-            <div class="row">
-                <picture class="col-md-4 col-xs-4">
-                    <img class="img-responsive anime" src="img/mysql.png">                    
-                </picture>
-
-                <picture class="col-md-4 col-xs-4">
-                    <img class="img-responsive anime" src="img/MySQLWorkbench.png">                    
-                </picture>
-
-                <picture class="col-md-4 col-xs-4">
-                    <img class="img-responsive anime" src="img/phpmyadmin.png">                    
-                </picture>
-            </div>
-
-            <h3 class="text-center">Front-End</h3>
-            <hr>
-
-            <div class="row">
-                <picture class="col-md-4 col-xs-4">
-                    <img class="img-responsive anime" width="300px" height="250px" src="img/bootstrap.png">                    
-                </picture>
-
-                <picture class="col-md-4 col-xs-4">
-                    <img class="img-responsive anime" src="img/web.png">  
-                </picture>
-
-                <picture class="col-md-3 col-xs-3">
-                    <img class="img-responsive anime" width="200px" height="200px" src="img/jquery.png" alt="img">         
-                </picture>
-
-                <picture class="col-md-3 col-xs-3"></picture>
-            </div>
-            
-            <div class="row">
-                <picture class="col-md-4 col-xs-4">     
-                </picture>
-
-                <!-- <picture class="col-md-4 col-xs-4">
-                    <img class="img-responsive anime" width="250px" height="250px" src="img/angular.png" alt="img">     
-                </picture> -->
-
-                <picture class="col-md-4 col-xs-4">
-                    <img class="img-responsive anime" width="200px" height="200px" src="img/typescript.svg" alt="img"> 
-                </picture>
-                
-                
-                <picture class="col-md-4 col-xs-4">     
-                </picture>
-            </div>
-
-            <br>
-
-            <h3 class="text-center">Ferramentas de Desenvolvimento</h3>
-            <hr>
-            <div class="row">
-                <picture class="col-md-2 col-xs-2"></picture>
-
-                <picture class="col-md-4 col-xs-4">
-                    <img class="img-responsive anime" src="img/git.png">
-                </picture>
-                
-                <picture class="col-md-4 col-xs-4">
-                    <img class="img-responsive anime" src="img/github-logo.png">
-                </picture>
-            </div>
-            <br>
-            <div class="row">
-                <picture class="col-md-2 col-xs-2">
-                </picture>
-
-                <picture class="col-md-4 col-xs-4">   
-                        <img class="img-responsive anime" src="img/netbeans.png">
-                </picture>  
-                
-                <picture class="col-md-4 col-xs-4">
-                        <img class="img-responsive anime" src="img/vscode.png">
-                </picture>
-            </div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Resume</title>
+<link type="text/css" rel="stylesheet" href="css/green.css" />
+<link type="text/css" rel="stylesheet" href="css/print.css" media="print"/>
+<!--[if IE 7]>
+<link href="css/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<link href="css/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="js/cufon.yui.js"></script>
+<script type="text/javascript" src="js/scrollTo.js"></script>
+<script type="text/javascript" src="js/myriad.js"></script>
+<script type="text/javascript" src="js/jquery.colorbox.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">
+		Cufon.replace('h1,h2');
+</script>
+</head>
+<body>
+<!-- Begin Wrapper -->
+<div id="wrapper">
+  <div class="wrapper-top"></div>
+  <div class="wrapper-mid">
+    <!-- Begin Paper -->
+    <div id="paper">
+      <div class="paper-top"></div>
+      <div id="paper-mid">
+        <div class="entry">
+          <!-- Begin Image -->
+          <img class="portrait" src="images/image.jpg" alt="John Smith" />
+          <!-- End Image -->
+          <!-- Begin Personal Information -->
+          <div class="self">
+            <h1 class="name">Alexandre Vieira de Souza <br />
+              <span>Desenvolvedor Web</span></h1>
+            <ul>
+              <li class="ad">Caieiras - SP</li>
+              <li class="mail">alexandre.geek.developer@gmail.com</li>
+              <li class="tel">+11 985015355</li>
+            </ul>
+          </div>
+          <!-- End Personal Information -->
+          <!-- Begin Social -->
+          <div class="social">
+            <ul>
+              <li><a class='north' href="#" title="Download .pdf"><img src="images/icn-save.jpg" alt="Download the pdf version" /></a></li>
+              <li><a class='north' href="javascript:window.print()" title="Print"><img src="images/icn-print.jpg" alt="" /></a></li>
+              <li><a class='north' id="contact" href="contact/index.html" title="Contact Me"><img src="images/icn-contact.jpg" alt="" /></a></li>
+              <li><a class='north' href="#" title="Follow me on Twitter"><img src="images/icn-twitter.jpg" alt="" /></a></li>
+              <li><a class='north' href="#" title="My Facebook Profile"><img src="images/icn-facebook.jpg" alt="" /></a></li>
+            </ul>
+          </div>
+          <!-- End Social -->
         </div>
-            
-        </section>
-
-        <!-- Experincia -->
-        <section id="experiencia">
-            <div class="container">
-                 <h2>
-                    <span class="glyphicon glyphicon-briefcase"></span> Experiência Profissional
-                </h2>
-  
-                <ul class="topicos topicos-sem-estilo">
-                    <div class="row">
-                        <li>Autônomo - Manutenção de Microcomputadores, Atualização de softwares, apoio ao usuário entre outras atividades</li>
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-2 col-sm-2 col-xs-12"></div>                                                
-                        <picture class="col-md-3 col-sm-3 col-xs-12">
-                            <img src="img/ctis.png" class="img-responsive anime">
-                            </br><br>
-                        </picture>
-
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <li>
-                                <b>CTIS Tecnologia S.A</b>
-                            </li>
-                            <li>Técnico de Apoio ao Usuário</li>
-                            <li>Projeto: Educat</li>
-                            <li>Admissão: 01/11/2012 Rescisão: 09/04/2013</li>
-                        </div>
-
-                        <div class="col-md-2 col-sm-2 col-xs-12"></div>                    
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-2 col-sm-2 col-xs-12"></div>
-
-                        <picture class="col-md-3 col-sm-3 col-xs-12">
-                            <img src="img/ceagesp.png" class="img-responsive anime">
-                        </picture>
-
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            </br>
-                            <li>
-                                <b>CEAGESP Companhia de Entrepostos e Armazens Gerais de São Paulo</b>
-                            </li>
-                            <li>Estagiário de Suporte</li>
-                            <li>Departamento: SESAP e SEINF</li>
-                            <li>Admissão: 06/2016 Rescisão: 09/2016</li>
-                        </div>
-                        
-                        <div class="col-md-2 col-sm-2 col-xs-12"></div>                                            
-                    </div>
-                    <br>
-                    <div class="row">
-                        <div class="col-md-2 col-sm-2 col-xs-12"></div>
-
-                        <picture class="col-md-3 col-sm-3 col-xs-12">
-                            <img src="img/logo-caos.png" class="img-responsive anime ">
-                        </picture>
-
-                        <div class="col-md-4 col-sm-4 col-xs-12">
-                            <br>
-                            <li>
-                                <b>Caos Developers - Consultoria e Análise de Soluções</b>
-                            </li>
-                            <li>Estagiário de desenvolvimento</li>
-                            <li>Departamento: Web</li>    
-                            <li>Admissão: 07/2017 Rescisão: 01/2018</li>
-                        </div>
-
-                        <div class="col-md-2 col-sm-2 col-xs-12"></div>                        
-                    </div>
-                </ul>
-            </div>     
-        </section>
-
-        <!-- Rodape e Contato -->
-        <footer id="contato">
-            <div class="container">
-                <h2>
-                    <span class="glyphicon glyphicon-envelope"></span> Contato
-                </h2>
-
-                </br>
-                <div class="row">
-                    <div class="col-xs-12 col-md-4 col-sm-4">
-                        <img src="img/whatsapp.png" class="contato-img" class="img-responsive">
-                        (11) 98501-5355
-                    </div>
-
-                    <div class="col-xs-12 col-md-3 col-sm-3">
-                        <img src="img/phone.png" class="contato-img" class="img-respomsive">
-                        (11) 4445-4346
-                    </div>
-                
-                
-                    <div class="col-xs-12 col-md-5 col-sm-5">
-                        <img src="img/email.png" class="contato-img" class="img-respomsive">    
-                            alexandre.geek.developer@gmail.com    
-                        </div>
-
-
-                        </div>
-                </div>
-
-                <p class="direitos-reservados text-center">	Alexandre Vieira de Souza &copy; Todos os Direitos Reservados</p>
-
-                <ul class="text-center">
-                        <a href="https://github.com/avs-atitude" title="GitHub" target="_blank">
-                            <img class="social-icons" src="img/github.png">
-                        </a>
-    
-                        <a href="https://www.linkedin.com/in/avs-atitude/" title="Linkedin" target="_blank">
-                            <img class="social-icons" src="img/linkedin.png">
-                        </a>
-    
-                        <a href="https://www.facebook.com/alexandre.sumemo" title="Facebook" target="_blank">
-                            <img class="social-icons" src="img/facebook.png">
-                        </a>
-                    </ul>
-            </div>
-        </footer>
-
-    </body>
-
-    <!-- BOOTSTRAP -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-
-
-    <script src="js/animacoes.js"></script>
-    <script src="js/scrollSuave.js"></script>
-    <script src="js/calculaIdade.js"></script>
+        <!-- Begin 1st Row -->
+        <div class="entry">
+          <h2>OBJECTIVE</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dignissim viverra nibh sed varius. Proin bibendum nunc in sem ultrices posuere. Aliquam ut aliquam lacus.</p>
+        </div>
+        <!-- End 1st Row -->
+        <!-- Begin 2nd Row -->
+        <div class="entry">
+          <h2>EDUCATION</h2>
+          <div class="content">
+            <h3>Sep 2005 - Feb 2007</h3>
+            <p>Academy of Art University, London <br />
+              <em>Master in Communication Design</em></p>
+          </div>
+          <div class="content">
+            <h3>Sep 2001 - Jun 2005</h3>
+            <p>University of Art &amp; Design, New York <br />
+              <em>Bachelor of Science in Graphic Design</em></p>
+          </div>
+        </div>
+        <!-- End 2nd Row -->
+        <!-- Begin 3rd Row -->
+        <div class="entry">
+          <h2>EXPERIENCE</h2>
+          <div class="content">
+            <h3>May 2009 - Feb 2010</h3>
+            <p>Agency Creative, London <br />
+              <em>Senior Web Designer</em></p>
+            <ul class="info">
+              <li>Vestibulum eu ante massa, sed rhoncus velit.</li>
+              <li>Pellentesque at lectus in <a href="#">libero dapibus</a> cursus. Sed arcu ipsum, varius at ultricies acuro, tincidunt iaculis diam.</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>Jun 2007 - May 2009</h3>
+            <p>Junior Web Designer <br />
+              <em>Bachelor of Science in Graphic Design</em></p>
+            <ul class="info">
+              <li>Sed fermentum sollicitudin interdum. Etiam imperdiet sapien in dolor rhoncus a semper tortor posuere. </li>
+              <li>Pellentesque at lectus in libero dapibus cursus. Sed arcu ipsum, varius at ultricies acuro, tincidunt iaculis diam.</li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 3rd Row -->
+        <!-- Begin 4th Row -->
+        <div class="entry">
+          <h2>SKILLS</h2>
+          <div class="content">
+            <h3>Software Knowledge</h3>
+            <ul class="skills">
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>InDesign</li>
+              <li>Flash</li>
+              <li>Fireworks</li>
+              <li>Dreamweaver</li>
+              <li>After Effects</li>
+              <li>Cinema 4D</li>
+              <li>Maya</li>
+            </ul>
+          </div>
+          <div class="content">
+            <h3>Languages</h3>
+            <ul class="skills">
+              <li>CSS/XHTML</li>
+              <li>PHP</li>
+              <li>JavaScript</li>
+              <li>Ruby on Rails</li>
+              <li>ActionScript</li>
+              <li>C++</li>
+            </ul>
+          </div>
+        </div>
+        <!-- End 4th Row -->
+         <!-- Begin 5th Row -->
+        <div class="entry">
+        <h2>WORKS</h2>
+        	<ul class="works">
+        		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/2.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/3.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/2.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/3.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        		<li><a href="images/1.jpg" rel="gallery" title="Lorem ipsum dolor sit amet."><img src="images/image.jpg" alt="" /></a></li>
+        	</ul>
+        </div>
+        <!-- Begin 5th Row -->
+      </div>
+      <div class="clear"></div>
+      <div class="paper-bottom"></div>
+    </div>
+    <!-- End Paper -->
+  </div>
+  <div class="wrapper-bottom"></div>
+</div>
+<div id="message"><a href="#top" id="top-link">Go to Top</a></div>
+<!-- End Wrapper -->
+</body>
 </html>
-
-
-
